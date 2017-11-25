@@ -10,6 +10,8 @@
 		50F94B8B1FC7D51D00E8F35D /* YHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F94B811FC7D51D00E8F35D /* YHUtility.framework */; };
 		50F94B901FC7D51D00E8F35D /* YHUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94B8F1FC7D51D00E8F35D /* YHUtilityTests.m */; };
 		50F94B921FC7D51D00E8F35D /* YHUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F94B841FC7D51D00E8F35D /* YHUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F94BF51FC7FEF600E8F35D /* YHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F94BF31FC7FEF600E8F35D /* YHMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F94BF61FC7FEF600E8F35D /* YHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BF41FC7FEF600E8F35D /* YHMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		50F94B8A1FC7D51D00E8F35D /* YHUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F94B8F1FC7D51D00E8F35D /* YHUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHUtilityTests.m; sourceTree = "<group>"; };
 		50F94B911FC7D51D00E8F35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F94BF31FC7FEF600E8F35D /* YHMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMediator.h; sourceTree = "<group>"; };
+		50F94BF41FC7FEF600E8F35D /* YHMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				50F94B841FC7D51D00E8F35D /* YHUtility.h */,
 				50F94B851FC7D51D00E8F35D /* Info.plist */,
+				50F94BF21FC7FEA300E8F35D /* YHMediator */,
 			);
 			path = YHUtility;
 			sourceTree = "<group>";
@@ -86,6 +91,15 @@
 			path = YHUtilityTests;
 			sourceTree = "<group>";
 		};
+		50F94BF21FC7FEA300E8F35D /* YHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				50F94BF31FC7FEF600E8F35D /* YHMediator.h */,
+				50F94BF41FC7FEF600E8F35D /* YHMediator.m */,
+			);
+			path = YHMediator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F94BF51FC7FEF600E8F35D /* YHMediator.h in Headers */,
 				50F94B921FC7D51D00E8F35D /* YHUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F94BF61FC7FEF600E8F35D /* YHMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +348,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -340,6 +357,7 @@
 				INFOPLIST_FILE = YHUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.YHUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -352,6 +370,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -360,6 +379,7 @@
 				INFOPLIST_FILE = YHUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.YHUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

@@ -15,6 +15,10 @@
 		50F94BC91FC7D5F000E8F35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BC81FC7D5F000E8F35D /* main.m */; };
 		50F94BD31FC7D5F100E8F35D /* YHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BD21FC7D5F100E8F35D /* YHDemoTests.m */; };
 		50F94BDE1FC7D5F100E8F35D /* YHDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BDD1FC7D5F100E8F35D /* YHDemoUITests.m */; };
+		50F94C0D1FC95B9100E8F35D /* Target_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C0C1FC95B9100E8F35D /* Target_Test.m */; };
+		50F94C101FC95BBB00E8F35D /* YHMediator+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */; };
+		50F94C131FC95F2300E8F35D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C121FC95F2300E8F35D /* TestViewController.m */; };
+		50F94C151FC9663300E8F35D /* YHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F94C141FC9663300E8F35D /* YHUtility.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		50F94C021FC956D100E8F35D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		50F94BB61FC7D5F000E8F35D /* YHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F94BB91FC7D5F000E8F35D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,13 @@
 		50F94BD91FC7D5F100E8F35D /* YHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F94BDD1FC7D5F100E8F35D /* YHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDemoUITests.m; sourceTree = "<group>"; };
 		50F94BDF1FC7D5F100E8F35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F94C0B1FC95B9100E8F35D /* Target_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Test.h; sourceTree = "<group>"; };
+		50F94C0C1FC95B9100E8F35D /* Target_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Test.m; sourceTree = "<group>"; };
+		50F94C0E1FC95BBB00E8F35D /* YHMediator+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHMediator+Test.h"; sourceTree = "<group>"; };
+		50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YHMediator+Test.m"; sourceTree = "<group>"; };
+		50F94C111FC95F2300E8F35D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		50F94C121FC95F2300E8F35D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		50F94C141FC9663300E8F35D /* YHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YHUtility.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F94C151FC9663300E8F35D /* YHUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +126,8 @@
 		50F94BB81FC7D5F000E8F35D /* YHDemo */ = {
 			isa = PBXGroup;
 			children = (
+				50F94C141FC9663300E8F35D /* YHUtility.framework */,
+				50F94BFB1FC954F100E8F35D /* TestMediator */,
 				50F94BB91FC7D5F000E8F35D /* AppDelegate.h */,
 				50F94BBA1FC7D5F000E8F35D /* AppDelegate.m */,
 				50F94BBC1FC7D5F000E8F35D /* ViewController.h */,
@@ -132,6 +159,19 @@
 			path = YHDemoUITests;
 			sourceTree = "<group>";
 		};
+		50F94BFB1FC954F100E8F35D /* TestMediator */ = {
+			isa = PBXGroup;
+			children = (
+				50F94C0B1FC95B9100E8F35D /* Target_Test.h */,
+				50F94C0C1FC95B9100E8F35D /* Target_Test.m */,
+				50F94C0E1FC95BBB00E8F35D /* YHMediator+Test.h */,
+				50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */,
+				50F94C111FC95F2300E8F35D /* TestViewController.h */,
+				50F94C121FC95F2300E8F35D /* TestViewController.m */,
+			);
+			path = TestMediator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +182,7 @@
 				50F94BB21FC7D5F000E8F35D /* Sources */,
 				50F94BB31FC7D5F000E8F35D /* Frameworks */,
 				50F94BB41FC7D5F000E8F35D /* Resources */,
+				50F94C021FC956D100E8F35D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,9 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F94C131FC95F2300E8F35D /* TestViewController.m in Sources */,
 				50F94BBE1FC7D5F000E8F35D /* ViewController.m in Sources */,
 				50F94BC91FC7D5F000E8F35D /* main.m in Sources */,
+				50F94C0D1FC95B9100E8F35D /* Target_Test.m in Sources */,
 				50F94BBB1FC7D5F000E8F35D /* AppDelegate.m in Sources */,
+				50F94C101FC95BBB00E8F35D /* YHMediator+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +476,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YHDemo",
+				);
 				INFOPLIST_FILE = YHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.YHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +496,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YHDemo",
+				);
 				INFOPLIST_FILE = YHDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.YHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
