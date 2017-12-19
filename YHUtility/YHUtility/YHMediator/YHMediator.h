@@ -6,6 +6,8 @@
 //  Copyright © 2017年 taiyh. All rights reserved.
 //
 /*
+ 简书
+ http://www.jianshu.com/p/afb9b52143d4
  casa原文地址
  https://casatwy.com/iOS-Modulization.html
  https://casatwy.com/modulization_in_action.html

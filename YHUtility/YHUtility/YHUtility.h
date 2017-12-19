@@ -19,6 +19,11 @@ FOUNDATION_EXPORT const unsigned char YHUtilityVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <YHUtility/PublicHeader.h>
 
+// 中间人模式
 #import "YHMediator.h"
+// networking
+#import "YHSessionManager.h"
+// 崩溃反馈
+#import "YHCrashReporter.h"
 
 
