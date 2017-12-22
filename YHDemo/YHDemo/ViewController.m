@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <YHUtility/YHUtility.h>
-#import "YHMediator+Test.h"
 
 @interface ViewController ()
 
@@ -19,13 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    NSLog(@"num:%f,str:%s",YHUtilityVersionNumber,YHUtilityVersionString);
-    NSLog(@"NSHomeDirectory:%@",NSHomeDirectory());
-
-    NSSetUncaughtExceptionHandler(&yh_uncaughtExceptionHandler);
-    YHCrashReporter * reporter = [[YHCrashReporter alloc] init];
-    [reporter report];
 
 }
 - (IBAction)clicked:(id)sender {
@@ -47,44 +39,18 @@
     
     
 }
-
-
-- (void)tesss1 {
-    
-    UIViewController * vc = [YHMediator.sharedMediator viewControllerForTest];
-    [self presentViewController:vc animated:YES completion:nil];
-    
-    NSString * getURL = @"http://test.rskj99.com/rskj-core-api/product/getProductList";
-    
-    YHSessionManager * manager = [[YHSessionManager alloc] init];
-    //    [manager GET:getURL parameters:nil success:^(NSURLSessionTask * _Nonnull task, id  _Nullable responseObject) {
-    //        NSLog(@"get res - %@",responseObject);
-    //    } failure:^(NSURLSessionTask * _Nullable task, NSError * _Nonnull error) {
-    //        NSLog(@"get err - %@",error);
-    //    }];
-    
-    
-    NSDictionary *parameters = @{
-                                 @"mobilePhone" : @"18810287488",
-                                 @"password" : @"q111111"
-                                 };
-    
-    NSString * postString =  @"http://test.rskj99.com/rskj-core-api/member/login";
-    
-    [manager POST:postString parameters:parameters success:^(NSURLSessionTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"post res - %@",responseObject);
-        
-    } failure:^(NSURLSessionTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"post err - %@",error);
-        
-    }];
+- (IBAction)store:(id)sender {
+    YHKeychainWrapper * wrapper = [[YHKeychainWrapper alloc] init];
+    NSString * uuid = [[NSUUID UUID] UUIDString];
+    NSLog(@"store uuid:%@",uuid); //kSecAttrAccount
+    [wrapper mySetObject:uuid forKey:(id)kSecValueData];
 }
 
+- (IBAction)get:(id)sender {
+    YHKeychainWrapper * wrapper = [[YHKeychainWrapper alloc] init];
+    NSString * uuid = [wrapper myObjectForKey:(id)kSecValueData];
+    NSLog(@"get uuid:%@",uuid);
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 
 @end

@@ -119,8 +119,11 @@ void yh_uncaughtExceptionHandler(NSException *exception) {
             NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
                 
                //8.解析数据
-               NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+                if (data) {
+                    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
                     NSLog(@"%@",dict);
+                }
+
             }];
             //7.执行任务
             [dataTask resume];

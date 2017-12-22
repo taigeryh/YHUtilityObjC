@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5096B5611FE8EBB20050236D /* YHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5096B5601FE8EBB20050236D /* YHUtility.framework */; };
+		50A76FD11FECBCD400C999A2 /* YHUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A76FD01FECBCD400C999A2 /* YHUtility.framework */; };
 		50F94BBB1FC7D5F000E8F35D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BBA1FC7D5F000E8F35D /* AppDelegate.m */; };
 		50F94BBE1FC7D5F000E8F35D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BBD1FC7D5F000E8F35D /* ViewController.m */; };
 		50F94BC11FC7D5F000E8F35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F94BBF1FC7D5F000E8F35D /* Main.storyboard */; };
@@ -16,9 +16,6 @@
 		50F94BC91FC7D5F000E8F35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BC81FC7D5F000E8F35D /* main.m */; };
 		50F94BD31FC7D5F100E8F35D /* YHDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BD21FC7D5F100E8F35D /* YHDemoTests.m */; };
 		50F94BDE1FC7D5F100E8F35D /* YHDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94BDD1FC7D5F100E8F35D /* YHDemoUITests.m */; };
-		50F94C0D1FC95B9100E8F35D /* Target_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C0C1FC95B9100E8F35D /* Target_Test.m */; };
-		50F94C101FC95BBB00E8F35D /* YHMediator+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */; };
-		50F94C131FC95F2300E8F35D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F94C121FC95F2300E8F35D /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5096B5601FE8EBB20050236D /* YHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YHUtility.framework; sourceTree = "<group>"; };
+		50A76FD01FECBCD400C999A2 /* YHUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YHUtility.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/YHUtilityObjC-gaushazqxkqscbdtecmzufprqqsd/Build/Products/Debug-iphonesimulator/YHUtility.framework"; sourceTree = "<group>"; };
 		50F94BB61FC7D5F000E8F35D /* YHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F94BB91FC7D5F000E8F35D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50F94BBA1FC7D5F000E8F35D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,12 +53,6 @@
 		50F94BD91FC7D5F100E8F35D /* YHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F94BDD1FC7D5F100E8F35D /* YHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDemoUITests.m; sourceTree = "<group>"; };
 		50F94BDF1FC7D5F100E8F35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50F94C0B1FC95B9100E8F35D /* Target_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Test.h; sourceTree = "<group>"; };
-		50F94C0C1FC95B9100E8F35D /* Target_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Test.m; sourceTree = "<group>"; };
-		50F94C0E1FC95BBB00E8F35D /* YHMediator+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHMediator+Test.h"; sourceTree = "<group>"; };
-		50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YHMediator+Test.m"; sourceTree = "<group>"; };
-		50F94C111FC95F2300E8F35D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		50F94C121FC95F2300E8F35D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5096B5611FE8EBB20050236D /* YHUtility.framework in Frameworks */,
+				50A76FD11FECBCD400C999A2 /* YHUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +104,7 @@
 		50F94BB81FC7D5F000E8F35D /* YHDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5096B5601FE8EBB20050236D /* YHUtility.framework */,
-				50F94BFB1FC954F100E8F35D /* TestMediator */,
+				50A76FD01FECBCD400C999A2 /* YHUtility.framework */,
 				50F94BB91FC7D5F000E8F35D /* AppDelegate.h */,
 				50F94BBA1FC7D5F000E8F35D /* AppDelegate.m */,
 				50F94BBC1FC7D5F000E8F35D /* ViewController.h */,
@@ -144,19 +134,6 @@
 				50F94BDF1FC7D5F100E8F35D /* Info.plist */,
 			);
 			path = YHDemoUITests;
-			sourceTree = "<group>";
-		};
-		50F94BFB1FC954F100E8F35D /* TestMediator */ = {
-			isa = PBXGroup;
-			children = (
-				50F94C0B1FC95B9100E8F35D /* Target_Test.h */,
-				50F94C0C1FC95B9100E8F35D /* Target_Test.m */,
-				50F94C0E1FC95BBB00E8F35D /* YHMediator+Test.h */,
-				50F94C0F1FC95BBB00E8F35D /* YHMediator+Test.m */,
-				50F94C111FC95F2300E8F35D /* TestViewController.h */,
-				50F94C121FC95F2300E8F35D /* TestViewController.m */,
-			);
-			path = TestMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F94C131FC95F2300E8F35D /* TestViewController.m in Sources */,
 				50F94BBE1FC7D5F000E8F35D /* ViewController.m in Sources */,
 				50F94BC91FC7D5F000E8F35D /* main.m in Sources */,
-				50F94C0D1FC95B9100E8F35D /* Target_Test.m in Sources */,
 				50F94BBB1FC7D5F000E8F35D /* AppDelegate.m in Sources */,
-				50F94C101FC95BBB00E8F35D /* YHMediator+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

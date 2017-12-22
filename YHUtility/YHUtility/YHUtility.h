@@ -25,5 +25,9 @@ FOUNDATION_EXPORT const unsigned char YHUtilityVersionString[];
 #import "YHSessionManager.h"
 // 崩溃反馈
 #import "YHCrashReporter.h"
+// 设备信息
+#import "YHDeviceReporter.h"
+// 钥匙串访问
+#import "YHKeychainWrapper.h"
 
 

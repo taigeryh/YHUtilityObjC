@@ -23,6 +23,6 @@ void yh_uncaughtExceptionHandler(NSException *exception);
 /**
  向服务器提交崩溃日志
  */
-- (void)report;
+- (void)yh_report;
 
 @end
