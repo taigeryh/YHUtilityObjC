@@ -1,6 +1,0 @@
-framework module YHUtility {
-  umbrella header "YHUtility.h"
-
-  export *
-  module * { export * }
-}
