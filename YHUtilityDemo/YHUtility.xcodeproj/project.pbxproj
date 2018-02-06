@@ -13,12 +13,12 @@
 		50A8B90B1FF0943800125297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A8B90A1FF0943800125297 /* Assets.xcassets */; };
 		50A8B90E1FF0943800125297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A8B90C1FF0943800125297 /* LaunchScreen.storyboard */; };
 		50A8B9111FF0943800125297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B9101FF0943800125297 /* main.m */; };
-		50A8B92D1FF0946E00125297 /* YHKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B91A1FF0946E00125297 /* YHKeychainWrapper.m */; };
-		50A8B92E1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B91D1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.m */; };
-		50A8B92F1FF0946E00125297 /* YHSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B9211FF0946E00125297 /* YHSessionManager.m */; };
-		50A8B9301FF0946E00125297 /* YHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B9241FF0946E00125297 /* YHMediator.m */; };
-		50A8B9311FF0946E00125297 /* YHCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B9291FF0946E00125297 /* YHCrashReporter.m */; };
-		50A8B9321FF0946E00125297 /* YHDeviceReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A8B92B1FF0946E00125297 /* YHDeviceReporter.m */; };
+		50C0A7FD2029D35100D9BDA3 /* YHKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7EA2029D35100D9BDA3 /* YHKeychainWrapper.m */; };
+		50C0A7FE2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7ED2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.m */; };
+		50C0A7FF2029D35100D9BDA3 /* YHSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7F12029D35100D9BDA3 /* YHSessionManager.m */; };
+		50C0A8002029D35100D9BDA3 /* YHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7F42029D35100D9BDA3 /* YHMediator.m */; };
+		50C0A8012029D35100D9BDA3 /* YHCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7F92029D35100D9BDA3 /* YHCrashReporter.m */; };
+		50C0A8022029D35100D9BDA3 /* YHDeviceReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C0A7FB2029D35100D9BDA3 /* YHDeviceReporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,20 +32,20 @@
 		50A8B90D1FF0943800125297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50A8B90F1FF0943800125297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50A8B9101FF0943800125297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50A8B9191FF0946E00125297 /* YHKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHKeychainWrapper.h; sourceTree = "<group>"; };
-		50A8B91A1FF0946E00125297 /* YHKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHKeychainWrapper.m; sourceTree = "<group>"; };
-		50A8B91B1FF0946E00125297 /* YHUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUtility.h; sourceTree = "<group>"; };
-		50A8B91D1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHURLSchemesCommunicationWrapper.m; sourceTree = "<group>"; };
-		50A8B91E1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHURLSchemesCommunicationWrapper.h; sourceTree = "<group>"; };
-		50A8B9201FF0946E00125297 /* YHNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNetworking.h; sourceTree = "<group>"; };
-		50A8B9211FF0946E00125297 /* YHSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSessionManager.m; sourceTree = "<group>"; };
-		50A8B9221FF0946E00125297 /* YHSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSessionManager.h; sourceTree = "<group>"; };
-		50A8B9241FF0946E00125297 /* YHMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMediator.m; sourceTree = "<group>"; };
-		50A8B9251FF0946E00125297 /* YHMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMediator.h; sourceTree = "<group>"; };
-		50A8B9281FF0946E00125297 /* YHCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCrashReporter.h; sourceTree = "<group>"; };
-		50A8B9291FF0946E00125297 /* YHCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCrashReporter.m; sourceTree = "<group>"; };
-		50A8B92B1FF0946E00125297 /* YHDeviceReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDeviceReporter.m; sourceTree = "<group>"; };
-		50A8B92C1FF0946E00125297 /* YHDeviceReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDeviceReporter.h; sourceTree = "<group>"; };
+		50C0A7E92029D35100D9BDA3 /* YHKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHKeychainWrapper.h; sourceTree = "<group>"; };
+		50C0A7EA2029D35100D9BDA3 /* YHKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHKeychainWrapper.m; sourceTree = "<group>"; };
+		50C0A7EB2029D35100D9BDA3 /* YHUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUtility.h; sourceTree = "<group>"; };
+		50C0A7ED2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHURLSchemesCommunicationWrapper.m; sourceTree = "<group>"; };
+		50C0A7EE2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHURLSchemesCommunicationWrapper.h; sourceTree = "<group>"; };
+		50C0A7F02029D35100D9BDA3 /* YHNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNetworking.h; sourceTree = "<group>"; };
+		50C0A7F12029D35100D9BDA3 /* YHSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSessionManager.m; sourceTree = "<group>"; };
+		50C0A7F22029D35100D9BDA3 /* YHSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSessionManager.h; sourceTree = "<group>"; };
+		50C0A7F42029D35100D9BDA3 /* YHMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMediator.m; sourceTree = "<group>"; };
+		50C0A7F52029D35100D9BDA3 /* YHMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMediator.h; sourceTree = "<group>"; };
+		50C0A7F82029D35100D9BDA3 /* YHCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCrashReporter.h; sourceTree = "<group>"; };
+		50C0A7F92029D35100D9BDA3 /* YHCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCrashReporter.m; sourceTree = "<group>"; };
+		50C0A7FB2029D35100D9BDA3 /* YHDeviceReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDeviceReporter.m; sourceTree = "<group>"; };
+		50C0A7FC2029D35100D9BDA3 /* YHDeviceReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDeviceReporter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		50A8B9001FF0943800125297 /* YHUtility */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9171FF0946E00125297 /* YHUtility */,
+				50C0A7E72029D35100D9BDA3 /* YHUtility */,
 				50A8B9011FF0943800125297 /* AppDelegate.h */,
 				50A8B9021FF0943800125297 /* AppDelegate.m */,
 				50A8B9041FF0943800125297 /* ViewController.h */,
@@ -92,79 +92,80 @@
 			path = YHUtility;
 			sourceTree = "<group>";
 		};
-		50A8B9171FF0946E00125297 /* YHUtility */ = {
+		50C0A7E72029D35100D9BDA3 /* YHUtility */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B91B1FF0946E00125297 /* YHUtility.h */,
-				50A8B9181FF0946E00125297 /* YHDataPersistence */,
-				50A8B91C1FF0946E00125297 /* YHInter-AppCommunication */,
-				50A8B91F1FF0946E00125297 /* YHNetworking */,
-				50A8B9231FF0946E00125297 /* YHMediator */,
-				50A8B9261FF0946E00125297 /* YHDataStatistics */,
+				50C0A7E82029D35100D9BDA3 /* YHDataPersistence */,
+				50C0A7EB2029D35100D9BDA3 /* YHUtility.h */,
+				50C0A7EC2029D35100D9BDA3 /* YHInter-AppCommunication */,
+				50C0A7EF2029D35100D9BDA3 /* YHNetworking */,
+				50C0A7F32029D35100D9BDA3 /* YHMediator */,
+				50C0A7F62029D35100D9BDA3 /* YHDataStatistics */,
 			);
-			path = YHUtility;
+			name = YHUtility;
+			path = ../../YHUtility;
 			sourceTree = "<group>";
 		};
-		50A8B9181FF0946E00125297 /* YHDataPersistence */ = {
+		50C0A7E82029D35100D9BDA3 /* YHDataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9191FF0946E00125297 /* YHKeychainWrapper.h */,
-				50A8B91A1FF0946E00125297 /* YHKeychainWrapper.m */,
+				50C0A7E92029D35100D9BDA3 /* YHKeychainWrapper.h */,
+				50C0A7EA2029D35100D9BDA3 /* YHKeychainWrapper.m */,
 			);
 			path = YHDataPersistence;
 			sourceTree = "<group>";
 		};
-		50A8B91C1FF0946E00125297 /* YHInter-AppCommunication */ = {
+		50C0A7EC2029D35100D9BDA3 /* YHInter-AppCommunication */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B91E1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.h */,
-				50A8B91D1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.m */,
+				50C0A7ED2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.m */,
+				50C0A7EE2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.h */,
 			);
 			path = "YHInter-AppCommunication";
 			sourceTree = "<group>";
 		};
-		50A8B91F1FF0946E00125297 /* YHNetworking */ = {
+		50C0A7EF2029D35100D9BDA3 /* YHNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9201FF0946E00125297 /* YHNetworking.h */,
-				50A8B9221FF0946E00125297 /* YHSessionManager.h */,
-				50A8B9211FF0946E00125297 /* YHSessionManager.m */,
+				50C0A7F02029D35100D9BDA3 /* YHNetworking.h */,
+				50C0A7F12029D35100D9BDA3 /* YHSessionManager.m */,
+				50C0A7F22029D35100D9BDA3 /* YHSessionManager.h */,
 			);
 			path = YHNetworking;
 			sourceTree = "<group>";
 		};
-		50A8B9231FF0946E00125297 /* YHMediator */ = {
+		50C0A7F32029D35100D9BDA3 /* YHMediator */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9251FF0946E00125297 /* YHMediator.h */,
-				50A8B9241FF0946E00125297 /* YHMediator.m */,
+				50C0A7F42029D35100D9BDA3 /* YHMediator.m */,
+				50C0A7F52029D35100D9BDA3 /* YHMediator.h */,
 			);
 			path = YHMediator;
 			sourceTree = "<group>";
 		};
-		50A8B9261FF0946E00125297 /* YHDataStatistics */ = {
+		50C0A7F62029D35100D9BDA3 /* YHDataStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9271FF0946E00125297 /* YHCrashReporter */,
-				50A8B92A1FF0946E00125297 /* YHDeviceReporter */,
+				50C0A7F72029D35100D9BDA3 /* YHCrashReporter */,
+				50C0A7FA2029D35100D9BDA3 /* YHDeviceReporter */,
 			);
 			path = YHDataStatistics;
 			sourceTree = "<group>";
 		};
-		50A8B9271FF0946E00125297 /* YHCrashReporter */ = {
+		50C0A7F72029D35100D9BDA3 /* YHCrashReporter */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B9281FF0946E00125297 /* YHCrashReporter.h */,
-				50A8B9291FF0946E00125297 /* YHCrashReporter.m */,
+				50C0A7F82029D35100D9BDA3 /* YHCrashReporter.h */,
+				50C0A7F92029D35100D9BDA3 /* YHCrashReporter.m */,
 			);
 			path = YHCrashReporter;
 			sourceTree = "<group>";
 		};
-		50A8B92A1FF0946E00125297 /* YHDeviceReporter */ = {
+		50C0A7FA2029D35100D9BDA3 /* YHDeviceReporter */ = {
 			isa = PBXGroup;
 			children = (
-				50A8B92C1FF0946E00125297 /* YHDeviceReporter.h */,
-				50A8B92B1FF0946E00125297 /* YHDeviceReporter.m */,
+				50C0A7FB2029D35100D9BDA3 /* YHDeviceReporter.m */,
+				50C0A7FC2029D35100D9BDA3 /* YHDeviceReporter.h */,
 			);
 			path = YHDeviceReporter;
 			sourceTree = "<group>";
@@ -240,15 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A8B92E1FF0946E00125297 /* YHURLSchemesCommunicationWrapper.m in Sources */,
-				50A8B9321FF0946E00125297 /* YHDeviceReporter.m in Sources */,
-				50A8B9311FF0946E00125297 /* YHCrashReporter.m in Sources */,
-				50A8B92D1FF0946E00125297 /* YHKeychainWrapper.m in Sources */,
+				50C0A7FE2029D35100D9BDA3 /* YHURLSchemesCommunicationWrapper.m in Sources */,
+				50C0A8022029D35100D9BDA3 /* YHDeviceReporter.m in Sources */,
+				50C0A8012029D35100D9BDA3 /* YHCrashReporter.m in Sources */,
+				50C0A7FD2029D35100D9BDA3 /* YHKeychainWrapper.m in Sources */,
 				50A8B9061FF0943800125297 /* ViewController.m in Sources */,
 				50A8B9111FF0943800125297 /* main.m in Sources */,
 				50A8B9031FF0943800125297 /* AppDelegate.m in Sources */,
-				50A8B92F1FF0946E00125297 /* YHSessionManager.m in Sources */,
-				50A8B9301FF0946E00125297 /* YHMediator.m in Sources */,
+				50C0A7FF2029D35100D9BDA3 /* YHSessionManager.m in Sources */,
+				50C0A8002029D35100D9BDA3 /* YHMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
